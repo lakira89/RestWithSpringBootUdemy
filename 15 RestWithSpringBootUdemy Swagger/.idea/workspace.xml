@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a44a229f-80fb-4594-8b93-7c8fd1037d93" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/data/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/data/vo/v1/BookVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/services/BookServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V3__Create_Table_Books.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V4__Insert_Data_In_Books.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/converter/DozerBookConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/converter/mocks/MockBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/src/main/java/br/com/erudio/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/src/main/java/br/com/erudio/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/src/main/java/br/com/erudio/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/src/main/java/br/com/erudio/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/src/main/java/br/com/erudio/services/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/src/main/java/br/com/erudio/services/PersonServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/target/classes/br/com/erudio/controller/MathController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02 RestWithSpringBootUdemy CRUD Person/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02 RestWithSpringBootUdemy CRUD Person/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02 RestWithSpringBootUdemy CRUD Person/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03 RestWithSpringBootUdemy CRUD Person Post Put Delete/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03 RestWithSpringBootUdemy CRUD Person Post Put Delete/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/ExceptionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/ExceptionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/services/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/services/PersonServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/controller/PersonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/ExceptionResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/ExceptionResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/UnsupportedMathOperationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/request/converters/NumberConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/services/PersonServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/services/PersonServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05 RestWithSpringBootUdemy Value Object/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05 RestWithSpringBootUdemy Value Object/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/hotswap_agent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/Startup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/controller/PersonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/converter/DozerConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/converter/custom/PersonConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/data/model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/data/vo/PersonVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/data/vo/v2/PersonVOV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/exception/ExceptionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/math/SimpleMath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/repository/PersonRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/services/PersonServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/test/java/br/com/erudio/converter/DozerConverterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/test/java/br/com/erudio/converter/mocks/MockPerson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/Startup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/controller/PersonController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/converter/DozerConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/converter/custom/PersonConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/data/model/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/data/vo/PersonVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/data/vo/v2/PersonVOV2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/exception/ExceptionResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/exception/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/math/SimpleMath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/repository/PersonRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/services/PersonServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/test-classes/br/com/erudio/converter/DozerConverterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/test-classes/br/com/erudio/converter/mocks/MockPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08 RestWithSpringBootUdemy Migrations com Flyway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08 RestWithSpringBootUdemy Migrations com Flyway/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09 RestWithSpringBootUdemy JSON Serialization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09 RestWithSpringBootUdemy JSON Serialization/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10 RestWithSpringBootUdemy Content Negotiation Extension/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10 RestWithSpringBootUdemy Content Negotiation Extension/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10 RestWithSpringBootUdemy Content Negotiation/src/main/java/br/com/erudio/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11 RestWithSpringBootUdemy Content Negotiation Query Parameter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11 RestWithSpringBootUdemy Content Negotiation Query Parameter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 RestWithSpringBootUdemy Content Negotiation Header Parameter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../12 RestWithSpringBootUdemy Content Negotiation Header Parameter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13 RestWithSpringBootUdemy Yaml Serialization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../13 RestWithSpringBootUdemy Yaml Serialization/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14 RestWithSpringBootUdemy HATEOAS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../14 RestWithSpringBootUdemy HATEOAS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restwithspringbootudemy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../restwithspringbootudemy/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="rest_with_spring_boot_udemy" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="rest_with_spring_boot_udemy" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="rest_with_spring_boot_udemy" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="rest_with_spring_boot_udemy: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/services/BookServices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-168">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/config/SwaggerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/controller/PersonController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/controller/BookController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/data/model/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d560080f-7bfb-4501-93b9-fa56afe1a929/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/data/vo/v1/BookVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/repository/BookRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/data/vo/v1/PersonVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>person</find>
+      <find>perso</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d560080f-7bfb-4501-93b9-fa56afe1a929/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/erudio/repository/BookRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/erudio/services/BookServices.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/erudio/converter/DozerConverterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/erudio/converter/DozerPersonConverterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/erudio/converter/mocks/MockBook.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/erudio/converter/DozerBookConverterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/erudio/data/vo/v1/BookVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/erudio/data/model/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/erudio/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/erudio/controller/BookController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/erudio/controller/PersonController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/hotswap_agent.xml" />
+        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 RestWithSpringBootUdemy Swagger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 RestWithSpringBootUdemy Swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 RestWithSpringBootUdemy Swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 RestWithSpringBootUdemy Swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 RestWithSpringBootUdemy Swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="erudio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 RestWithSpringBootUdemy Swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="erudio" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 RestWithSpringBootUdemy Swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="erudio" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 RestWithSpringBootUdemy Swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="erudio" type="462c0819:PsiDirectoryNode" />
+              <item name="converter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 RestWithSpringBootUdemy Swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="erudio" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 RestWithSpringBootUdemy Swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="erudio" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 RestWithSpringBootUdemy Swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="erudio" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 RestWithSpringBootUdemy Swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="erudio" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 RestWithSpringBootUdemy Swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="erudio" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 RestWithSpringBootUdemy Swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 RestWithSpringBootUdemy Swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="migration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 RestWithSpringBootUdemy Swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 RestWithSpringBootUdemy Swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 RestWithSpringBootUdemy Swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="converter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15 RestWithSpringBootUdemy Swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="converter" type="462c0819:PsiDirectoryNode" />
+              <item name="mocks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.github.dozermapper:dozer-core:6.5.2" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.github.dozermapper:dozer-core:6.5.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="dozer-core-6.5.2.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.github.dozermapper:dozer-core:6.5.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="dozer-core-6.5.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: javax.persistence:javax.persistence-api:2.2" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: javax.persistence:javax.persistence-api:2.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="javax.persistence-api-2.2.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: javax.persistence:javax.persistence-api:2.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="javax.persistence-api-2.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="d560080f-7bfb-4501-93b9-fa56afe1a929" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/db/migration" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.erudio.controller" />
+      <recent name="br.com.erudio.converter" />
+      <recent name="br.com.erudio.converter.mocks" />
+      <recent name="br.com.erudio.services" />
+      <recent name="br.com.erudio.data.vo.v1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Cursos\Udemy\SpringBoot\RestWithSpringBootUdemy\15 RestWithSpringBootUdemy Swagger\src\main\resources\db\migration" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Startup">
+    <configuration name="DozerBookConverterTest.parseEntityListToVOListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-with-spring-boot-udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.erudio.converter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.erudio.converter" />
+      <option name="MAIN_CLASS_NAME" value="br.com.erudio.converter.DozerBookConverterTest" />
+      <option name="METHOD_NAME" value="parseEntityListToVOListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DozerBookConverterTest.parseEntityToVOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-with-spring-boot-udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.erudio.converter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.erudio.converter" />
+      <option name="MAIN_CLASS_NAME" value="br.com.erudio.converter.DozerBookConverterTest" />
+      <option name="METHOD_NAME" value="parseEntityToVOTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DozerBookConverterTest.parseVOToEntityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-with-spring-boot-udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.erudio.converter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.erudio.converter" />
+      <option name="MAIN_CLASS_NAME" value="br.com.erudio.converter.DozerBookConverterTest" />
+      <option name="METHOD_NAME" value="parseVOToEntityTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DozerBookConverterTest.parserVOListToEntityListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-with-spring-boot-udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.erudio.converter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.erudio.converter" />
+      <option name="MAIN_CLASS_NAME" value="br.com.erudio.converter.DozerBookConverterTest" />
+      <option name="METHOD_NAME" value="parserVOListToEntityListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Startup" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rest-with-spring-boot-udemy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.Startup" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DozerBookConverterTest.parserVOListToEntityListTest" />
+        <item itemvalue="JUnit.DozerBookConverterTest.parseVOToEntityTest" />
+        <item itemvalue="JUnit.DozerBookConverterTest.parseEntityListToVOListTest" />
+        <item itemvalue="JUnit.DozerBookConverterTest.parseEntityToVOTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a44a229f-80fb-4594-8b93-7c8fd1037d93" name="Default Changelist" comment="" />
+      <created>1625092784694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625092784694</updated>
+      <workItem from="1625092786206" duration="7862000" />
+      <workItem from="1625167587353" duration="3076000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DozerBookConverterTest_parseEntityToVOTest - 2021.06.30 at 20h 02m 48s.xml">
+      <configuration name="DozerBookConverterTest.parseEntityToVOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DozerBookConverterTest_parseEntityToVOTest - 2021.06.30 at 21h 08m 42s.xml">
+      <configuration name="DozerBookConverterTest.parseEntityToVOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DozerBookConverterTest_parseEntityListToVOListTest - 2021.06.30 at 21h 41m 34s.xml">
+      <configuration name="DozerBookConverterTest.parseEntityListToVOListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DozerBookConverterTest_parseEntityListToVOListTest - 2021.06.30 at 21h 42m 03s.xml">
+      <configuration name="DozerBookConverterTest.parseEntityListToVOListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DozerBookConverterTest_parseVOToEntityTest - 2021.06.30 at 21h 44m 56s.xml">
+      <configuration name="DozerBookConverterTest.parseVOToEntityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DozerBookConverterTest_parserVOListToEntityListTest - 2021.06.30 at 21h 47m 01s.xml">
+      <configuration name="DozerBookConverterTest.parserVOListToEntityListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DozerBookConverterTest_parserVOListToEntityListTest - 2021.06.30 at 21h 47m 17s.xml">
+      <configuration name="DozerBookConverterTest.parserVOListToEntityListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DozerBookConverterTest_parserVOListToEntityListTest - 2021.06.30 at 21h 51m 50s.xml">
+      <configuration name="DozerBookConverterTest.parserVOListToEntityListTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10938000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2603939" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3280899" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.3258427" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" x="1" y="31" width="434" height="856" id="Documentation" order="6" sideWeight="0.50165015" side_tool="true" weight="0.28774616" />
+      <window_info anchor="right" id="Database" order="7" sideWeight="0.49834985" weight="0.32932165" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/erudio/controller/BookController.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V3__Create_Table_Books.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V4__Insert_Data_In_Books.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/services/PersonServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/repository/PersonRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/erudio/converter/mocks/MockPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.11/lib/src.zip!/java.base/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1035">
+          <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
+          <folding>
+            <element signature="e#6467#6468#0" expanded="true" />
+            <element signature="e#6515#6516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/erudio/converter/DozerPersonConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/converter/DozerConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+          <folding>
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/erudio/converter/mocks/MockBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+          <folding>
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/erudio/converter/DozerBookConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1968">
+          <caret line="93" column="52" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/data/model/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/data/vo/v1/PersonVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d560080f-7bfb-4501-93b9-fa56afe1a929/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/data/model/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/data/vo/v1/BookVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/repository/BookRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/services/BookServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/controller/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/controller/PersonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
