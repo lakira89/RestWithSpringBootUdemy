@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53b178e0-3f9f-4363-aa54-6cb4b275a85b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V11__Alter_Table_Person.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/src/main/java/br/com/erudio/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/src/main/java/br/com/erudio/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/src/main/java/br/com/erudio/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/src/main/java/br/com/erudio/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/src/main/java/br/com/erudio/services/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/src/main/java/br/com/erudio/services/PersonServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/target/classes/br/com/erudio/controller/MathController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02 RestWithSpringBootUdemy CRUD Person/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02 RestWithSpringBootUdemy CRUD Person/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02 RestWithSpringBootUdemy CRUD Person/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03 RestWithSpringBootUdemy CRUD Person Post Put Delete/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03 RestWithSpringBootUdemy CRUD Person Post Put Delete/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/ExceptionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/ExceptionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/services/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/services/PersonServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/controller/PersonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/ExceptionResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/ExceptionResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/UnsupportedMathOperationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/request/converters/NumberConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/services/PersonServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/services/PersonServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05 RestWithSpringBootUdemy Value Object/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05 RestWithSpringBootUdemy Value Object/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/hotswap_agent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/Startup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/controller/PersonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/converter/DozerConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/converter/custom/PersonConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/data/model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/data/vo/PersonVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/data/vo/v2/PersonVOV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/exception/ExceptionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/math/SimpleMath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/repository/PersonRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/services/PersonServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/test/java/br/com/erudio/converter/DozerConverterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/test/java/br/com/erudio/converter/mocks/MockPerson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/Startup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/controller/PersonController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/converter/DozerConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/converter/custom/PersonConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/data/model/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/data/vo/PersonVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/data/vo/v2/PersonVOV2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/exception/ExceptionResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/exception/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/math/SimpleMath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/repository/PersonRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/services/PersonServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/test-classes/br/com/erudio/converter/DozerConverterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/test-classes/br/com/erudio/converter/mocks/MockPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08 RestWithSpringBootUdemy Migrations com Flyway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08 RestWithSpringBootUdemy Migrations com Flyway/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09 RestWithSpringBootUdemy JSON Serialization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09 RestWithSpringBootUdemy JSON Serialization/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10 RestWithSpringBootUdemy Content Negotiation Extension/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10 RestWithSpringBootUdemy Content Negotiation Extension/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10 RestWithSpringBootUdemy Content Negotiation/src/main/java/br/com/erudio/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11 RestWithSpringBootUdemy Content Negotiation Query Parameter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11 RestWithSpringBootUdemy Content Negotiation Query Parameter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12 RestWithSpringBootUdemy Content Negotiation Header Parameter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../12 RestWithSpringBootUdemy Content Negotiation Header Parameter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13 RestWithSpringBootUdemy Yaml Serialization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../13 RestWithSpringBootUdemy Yaml Serialization/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14 RestWithSpringBootUdemy HATEOAS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../14 RestWithSpringBootUdemy HATEOAS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15 RestWithSpringBootUdemy Swagger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../15 RestWithSpringBootUdemy Swagger/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16 RestWithSpringBootUdemy CORS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../16 RestWithSpringBootUdemy CORS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17 RestWithSpringBootUdemy JWT and Spring Security/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../17 RestWithSpringBootUdemy JWT and Spring Security/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restwithspringbootudemy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../restwithspringbootudemy/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V11__Alter_Table_Person.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/data/model/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="27" selection-start-line="27" selection-end-line="28" selection-end-column="28" />
+              <folding>
+                <element signature="e#1511#1512#0" expanded="true" />
+                <element signature="e#1541#1542#0" expanded="true" />
+                <element signature="e#1588#1589#0" expanded="true" />
+                <element signature="e#1626#1627#0" expanded="true" />
+                <element signature="e#2212#2213#0" expanded="true" />
+                <element signature="e#2298#2299#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/data/vo/v1/PersonVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1056">
+              <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+              <folding>
+                <element signature="e#1485#1486#0" expanded="true" />
+                <element signature="e#1515#1516#0" expanded="true" />
+                <element signature="e#1562#1563#0" expanded="true" />
+                <element signature="e#1600#1601#0" expanded="true" />
+                <element signature="e#2250#2251#0" expanded="true" />
+                <element signature="e#2355#2356#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/repository/PersonRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#54#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/services/PersonServices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/controller/PersonController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="77" column="30" lean-forward="true" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/repository/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" column="60" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#49#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/91cfa14e-4430-47e4-933f-6dcdcf55483a/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/br/com/erudio/data/model/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/erudio/data/vo/v1/PersonVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/erudio/repository/PersonRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/erudio/services/PersonServices.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/erudio/controller/PersonController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/91cfa14e-4430-47e4-933f-6dcdcf55483a/console.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rest-with-spring-boot-udemy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/hotswap_agent.xml" />
+        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18 RestWithSpringBootUdemy PATCH" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18 RestWithSpringBootUdemy PATCH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18 RestWithSpringBootUdemy PATCH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18 RestWithSpringBootUdemy PATCH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18 RestWithSpringBootUdemy PATCH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="erudio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18 RestWithSpringBootUdemy PATCH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="erudio" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18 RestWithSpringBootUdemy PATCH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="erudio" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18 RestWithSpringBootUdemy PATCH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="erudio" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18 RestWithSpringBootUdemy PATCH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="erudio" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18 RestWithSpringBootUdemy PATCH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="erudio" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18 RestWithSpringBootUdemy PATCH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="erudio" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18 RestWithSpringBootUdemy PATCH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18 RestWithSpringBootUdemy PATCH" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="migration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="rest-with-spring-boot-udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="91cfa14e-4430-47e4-933f-6dcdcf55483a" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/db/migration" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Cursos\Udemy\SpringBoot\RestWithSpringBootUdemy\18 RestWithSpringBootUdemy PATCH\src\main\resources\db\migration" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Startup" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rest-with-spring-boot-udemy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.Startup" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53b178e0-3f9f-4363-aa54-6cb4b275a85b" name="Default Changelist" comment="" />
+      <created>1625698358040</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625698358040</updated>
+      <workItem from="1625698359485" duration="1475000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1475000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31619257" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" visible="true" weight="0.33258426" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32921347" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" weight="0.32932165" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info active="true" anchor="right" id="Database" visible="true" weight="0.32932165" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V11__Alter_Table_Person.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/data/model/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="27" selection-start-line="27" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1541#1542#0" expanded="true" />
+            <element signature="e#1588#1589#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#2212#2213#0" expanded="true" />
+            <element signature="e#2298#2299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/data/vo/v1/PersonVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+          <folding>
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1562#1563#0" expanded="true" />
+            <element signature="e#1600#1601#0" expanded="true" />
+            <element signature="e#2250#2251#0" expanded="true" />
+            <element signature="e#2355#2356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="60" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#49#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/repository/PersonRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#54#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/services/PersonServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/controller/PersonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="77" column="30" lean-forward="true" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/91cfa14e-4430-47e4-933f-6dcdcf55483a/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
