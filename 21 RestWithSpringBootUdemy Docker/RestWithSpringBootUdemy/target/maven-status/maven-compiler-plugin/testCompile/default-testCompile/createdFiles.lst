@@ -1,0 +1,4 @@
+br/com/erudio/converter/mocks/MockBook.class
+br/com/erudio/converter/DozerBookConverterTest.class
+br/com/erudio/converter/mocks/MockPerson.class
+br/com/erudio/converter/DozerPersonConverterTest.class

@@ -1,15 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a230b59-c716-48d0-9bfe-f1098b575133" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/src/main/java/br/com/erudio/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/src/main/java/br/com/erudio/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/src/main/java/br/com/erudio/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/src/main/java/br/com/erudio/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/src/main/java/br/com/erudio/services/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/src/main/java/br/com/erudio/services/PersonServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/target/classes/br/com/erudio/controller/MathController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02 RestWithSpringBootUdemy CRUD Person/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02 RestWithSpringBootUdemy CRUD Person/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02 RestWithSpringBootUdemy CRUD Person/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03 RestWithSpringBootUdemy CRUD Person Post Put Delete/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03 RestWithSpringBootUdemy CRUD Person Post Put Delete/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/ExceptionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/ExceptionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/services/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/services/PersonServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/controller/PersonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/ExceptionResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/ExceptionResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/UnsupportedMathOperationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/request/converters/NumberConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/services/PersonServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/services/PersonServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05 RestWithSpringBootUdemy Value Object/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05 RestWithSpringBootUdemy Value Object/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/hotswap_agent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/Startup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/controller/PersonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/converter/DozerConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/converter/custom/PersonConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/data/model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/data/vo/PersonVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/data/vo/v2/PersonVOV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/exception/ExceptionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/math/SimpleMath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/repository/PersonRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/java/br/com/erudio/services/PersonServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/test/java/br/com/erudio/converter/DozerConverterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/src/test/java/br/com/erudio/converter/mocks/MockPerson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/Startup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/controller/PersonController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/converter/DozerConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/converter/custom/PersonConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/data/model/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/data/vo/PersonVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/data/vo/v2/PersonVOV2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/exception/ExceptionResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/exception/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/math/SimpleMath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/repository/PersonRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/classes/br/com/erudio/services/PersonServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/test-classes/br/com/erudio/converter/DozerConverterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 RestWithSpringBootUdemy Versionamento de API/target/test-classes/br/com/erudio/converter/mocks/MockPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08 RestWithSpringBootUdemy Migrations com Flyway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08 RestWithSpringBootUdemy Migrations com Flyway/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09 RestWithSpringBootUdemy JSON Serialization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09 RestWithSpringBootUdemy JSON Serialization/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10 RestWithSpringBootUdemy Content Negotiation/src/main/java/br/com/erudio/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restwithspringbootudemy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../restwithspringbootudemy/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/hotswap_agent.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Startup" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rest-with-spring-boot-udemy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.Startup" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a230b59-c716-48d0-9bfe-f1098b575133" name="Default Changelist" comment="" />
+      <created>1624912969138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624912969138</updated>
+      <workItem from="1624912970384" duration="68000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="68000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945295" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="masterDetails">
     <states>

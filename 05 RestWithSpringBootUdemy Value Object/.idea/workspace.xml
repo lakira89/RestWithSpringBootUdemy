@@ -2,35 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584f3e7d-3056-4a64-86cc-50dad26104af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/.idea/hotswap_agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/Startup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/controller/PersonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/ExceptionResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/math/SimpleMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/repository/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/services/PersonServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/Startup.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/controller/PersonController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/ExceptionResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/math/SimpleMath.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/model/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/services/PersonServices.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/converter/DozerConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/data/vo/PersonVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/src/main/java/br/com/erudio/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01 RestWithSpringBootUdemy Scaffold Calculator/src/main/java/br/com/erudio/controller/PersonController.java" afterDir="false" />
@@ -40,6 +11,22 @@
       <change beforePath="$PROJECT_DIR$/../02 RestWithSpringBootUdemy CRUD Person/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../02 RestWithSpringBootUdemy CRUD Person/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02 RestWithSpringBootUdemy CRUD Person/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03 RestWithSpringBootUdemy CRUD Person Post Put Delete/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03 RestWithSpringBootUdemy CRUD Person Post Put Delete/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/ExceptionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/ExceptionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/services/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/java/br/com/erudio/services/PersonServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/controller/PersonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/ExceptionResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/ExceptionResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/UnsupportedMathOperationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/exception/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/request/converters/NumberConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/services/PersonServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04 RestWithSpringBootUdemy Database/target/classes/br/com/erudio/services/PersonServices.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../restwithspringbootudemy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../restwithspringbootudemy/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -91,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/converter/DozerConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+            <state relative-caret-position="312">
+              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#322#323#0" expanded="true" />
@@ -226,6 +213,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -270,16 +258,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624478249571</updated>
-      <workItem from="1624478251026" duration="1225000" />
+      <workItem from="1624478251026" duration="1257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1225000" />
+    <option name="totallyTimeSpent" value="1257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="952" y="-8" width="976" height="1056" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -368,8 +355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/erudio/converter/DozerConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        <state relative-caret-position="312">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#322#323#0" expanded="true" />
@@ -381,9 +368,78 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>rest-with-spring-boot-udemy</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

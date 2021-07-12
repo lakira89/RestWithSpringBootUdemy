@@ -1,0 +1,4 @@
+/RestWithSpringBootUdemy/src/test/java/br/com/erudio/converter/mocks/MockBook.java
+/RestWithSpringBootUdemy/src/test/java/br/com/erudio/converter/mocks/MockPerson.java
+/RestWithSpringBootUdemy/src/test/java/br/com/erudio/converter/DozerBookConverterTest.java
+/RestWithSpringBootUdemy/src/test/java/br/com/erudio/converter/DozerPersonConverterTest.java
