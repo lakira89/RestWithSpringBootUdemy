@@ -8,9 +8,10 @@ script:
 before_deploy:
   - echo "${DOCKER_PASSWORD}" | docker login --username "${DOCKER_USERNAME}" --password-stdin
 deploy:
-  provider:script
-  script: docker push akira89/rest-with-spring-boot-udemy;
-          docker push akira89/mysql-rest-with-spring-boot-udemy;
+  provider: script
+  script: 
+    docker push akira89/rest-with-spring-boot-udemy;
+    docker push akira89/mysql-rest-with-spring-boot-udemy;
   on:
     branch: master
 notifications:

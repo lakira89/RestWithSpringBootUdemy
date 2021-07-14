@@ -1,0 +1,6 @@
+User name,Password,Access key ID,Secret access key,Console login link
+TRAVIS_CI,,AKIA2IC2NFU3PENGUPGZ,LEc3WFM8kDB/QsNN/iXc4lej9g8uhh4JPxMI34kS,https://704564243766.signin.aws.amazon.com/console
+
+
+ECR
+704564243766.dkr.ecr.us-east-2.amazonaws.com/rest-with-spring-boot-udemy
